@@ -1,0 +1,194 @@
+
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.prod_img{
+  max-width: 500px;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 24px;
+}
+
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.main-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.site-main {
+  padding: 20px;
+}
+
+.shop-section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+}
+
+.product-item {
+  margin-bottom: 20px;
+}
+
+.product-item a {
+  text-decoration: none;
+  color: #333;
+}
+
+.product-item p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.img {
+  margin-top: 10px;
+}
+
+.prod_img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+}
+
+
+.signIn {
+
+  text-align: center  ;
+  color: black;
+  font-size: 25px;
+  padding: 0 auto;
+  padding-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 130px;
+}
+.form-group {
+  margin-bottom: 18px;
+  font-weight: bold;
+}
+.signIn h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.signIn input{
+  font-size: inherit;
+}
+.btn {
+  color: inherit;
+  display: block;
+  height: 40px;
+  width: 150px;
+  margin: 0 auto;
+  background-color: rgb(13, 183, 183);
+  border: 1px solid rgb(white);
+  border-radius: 5px ;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.about{
+  margin-bottom: 420px ;
+}
+
+.container{
+  max-width: 75%;
+  margin: 0 auto;
+}
